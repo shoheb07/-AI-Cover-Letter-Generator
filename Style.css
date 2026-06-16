@@ -1,0 +1,39 @@
+body{
+    font-family:Arial;
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    padding:30px;
+}
+
+.container{
+    width:700px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    box-sizing:border-box;
+}
+
+textarea{
+    height:100px;
+}
+
+button{
+    margin-top:15px;
+    padding:12px 20px;
+    cursor:pointer;
+}
+
+#output{
+    margin-top:20px;
+    padding:20px;
+    border:1px solid gray;
+    white-space:pre-line;
+}
